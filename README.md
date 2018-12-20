@@ -39,3 +39,21 @@ Adicione um switch para que o usuário selecione a complexidade, por exemplo:
 ```
 $ python leet.py --difficulty 1
 ```
+
+# DESAFIO 3
+Como estamos falando de criptografia, nada melhor que vermos outro tipo de criptografia, a [Cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar)
+
+Muito parecido com o desafio anterior, recebe um texto (pode ser arquivo ou uma simples string) através de um comando no terminal enviando como parâmetro o número de rotação e retorna o texto criptografado.
+
+### Parte 1
+Retorne o resultado pelo próprio terminal.
+
+### Parte 2
+Crie uma API que receba via POST o texto e o número de rotações em formato JSON e retorne em formato JSON o texto criptografado.
+
+### Parte 3
+Imagine que estamos em guerra com os Estados Unidos, e precisamos de um sistema que criptografe e envie a mensagem para nossos aliados.
+
+Cria uma API com 2 endpoints: 
++ O primeiro deve receber via POST o texto e o número de rotações em formato JSON e retornar em formato JSON um ID aleatório. 
++ O segundo endpoint deve ser um GET que recebe como parametro o ID aleatório gerado e retorna o texto descriptografado.
