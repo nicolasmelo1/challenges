@@ -1,5 +1,5 @@
 # Challenges
-Some small challenges i invented.
+Alguns desafios que eu inventei.
 
 # DESAFIO 1
 Ler o [seguinte arquivo](http://dados.df.gov.br/dataset/3a3b7b40-c715-439d-9dff-f22b47fc5994/resource/f4422c06-a041-46cc-9d89-9d09ffae1c70/download/2018-12-19-infracoes.csv) .csv e gerar um arquivo .csv para cada um dos itens:
